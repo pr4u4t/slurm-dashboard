@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rackmap SYSTEM "/usr/share/slurm-web/restapi/schema/dtd/racks.dtd">
+<rackmap>
+
+  <!--
+    This file is an example of XML rackmap file for slurm-web.
+
+    You must adapt it (or write one from scratch) to fit the racks composition
+    of your own HPC cluster.
+
+    First define your node types with their model name and dimensions. Then,
+    define your racks with their positions and their nodes. You do not need to
+    specify the position of all nodes. Specify the positions of the nodes in
+    the 1st row + the position of the first node in the 2nd row. Then, the
+    backend program is able to compute the positions of all other nodes (in
+    nodesets) based on these initial positions.
+  -->
+
+  <nodetypes>
+    <nodetype id="m32x4321"
+              model="Vendor A 32 x4321"
+              height="4"
+              width="1"
+              />
+  </nodetypes>
+
+
+  <racks posx="0" posy="0" width="500" depth="300" rackwidth="1">
+    <racksrow posx="0">
+      <!-- Rack A1 -->
+      <rack id="A1" posy="0">
+        <nodes>
+          <node id="core-server1"
+                   type="m32x4321"
+                   posx="0"
+                   posy="0" />
+
+          <node id="core-server2"
+                   type="m32x4321"
+                   posx="0"
+		   posy="4" />
+	 <node id="core-server3"
+                   type="m32x4321"
+                   posx="0"
+		   posy="8" />
+	<node id="core-server4"
+                   type="m32x4321"
+                   posx="0"
+		   posy="12" />
+	<node id="core-server5"
+                   type="m32x4321"
+                   posx="0"
+                   posy="16" />
+	<node id="core-server0"
+                   type="m32x4321"
+                   posx="0"
+		   posy="20" />
+
+	</nodes>
+     </rack>
+     <rack id="A2" posy="1">
+        <nodes>
+          <node id="bridge1"
+                   type="m32x4321"
+                   posx="0"
+		  posy="0" />
+	  <node id="touch0"
+                   type="m32x4321"
+                   posx="0"
+		  posy="4" />
+  	 </nodes>
+     </rack>
+    </racksrow>
+  </racks>
+
+</rackmap>

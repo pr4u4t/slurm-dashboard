@@ -1,0 +1,513 @@
+open("/usr/lib/uwsgi/python39_plugin.so"): No such file or directory [core/utils.c line 3732]
+!!! UNABLE to load uWSGI plugin: /usr/lib/uwsgi/python39_plugin.so: cannot open shared object file: No such file or directory !!!
+uwsgi: unrecognized option '--wsgi-file'
+getopt_long() error
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Mar  5 18:52:05 2021] ***
+compiled with version: 10.2.0 on 27 February 2021 12:32:47
+os: Linux-5.8.7-arch1-1 #1 SMP PREEMPT Sat, 05 Sep 2020 12:31:32 +0000
+nodename: fcgi-python0.ad.robco.pl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /srv/http/cluster.robco.local/priv/webconf-server
+detected binary path: /usr/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7872
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :2001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.2 (default, Feb 20 2021, 18:40:11)  [GCC 10.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ebae2f3cf0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ebae2f3cf0 pid: 487502 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 487502, cores: 1)
+[pid: 487502|app: 0|req: 1/1] 192.168.1.193 () {40 vars in 623 bytes} [Fri Mar  5 18:57:47 2021] GET /config.json => generated 154 bytes in 3 msecs via sendfile() (HTTP/1.0 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 487502|app: 0|req: 2/2] 192.168.1.193 () {40 vars in 641 bytes} [Fri Mar  5 18:57:48 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 487502|app: 0|req: 3/3] 192.168.1.193 () {40 vars in 643 bytes} [Fri Mar  5 18:57:49 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487502|app: 0|req: 4/4] 192.168.1.193 () {40 vars in 629 bytes} [Fri Mar  5 18:57:49 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487502|app: 0|req: 5/5] 192.168.1.193 () {40 vars in 643 bytes} [Fri Mar  5 18:57:50 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487502|app: 0|req: 6/6] 192.168.1.193 () {40 vars in 641 bytes} [Fri Mar  5 18:57:51 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Mar  5 19:08:43 2021] ***
+compiled with version: 10.2.0 on 27 February 2021 12:32:47
+os: Linux-5.8.7-arch1-1 #1 SMP PREEMPT Sat, 05 Sep 2020 12:31:32 +0000
+nodename: fcgi-python0.ad.robco.pl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /srv/http/cluster.robco.local/priv/webconf-server
+detected binary path: /usr/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7872
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :2001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.2 (default, Feb 20 2021, 18:40:11)  [GCC 10.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x563fe7d21cf0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563fe7d21cf0 pid: 487696 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 487696, cores: 1)
+[pid: 487696|app: 0|req: 1/1] 192.168.1.193 () {40 vars in 623 bytes} [Fri Mar  5 19:08:56 2021] GET /config.json => generated 154 bytes in 3 msecs via sendfile() (HTTP/1.0 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 2/2] 192.168.1.193 () {40 vars in 641 bytes} [Fri Mar  5 19:08:58 2021] GET /clusters.config.json => generated 3 bytes in 2 msecs via sendfile() (HTTP/1.0 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 3/3] 192.168.1.193 () {40 vars in 643 bytes} [Fri Mar  5 19:08:58 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 4/4] 192.168.1.193 () {40 vars in 629 bytes} [Fri Mar  5 19:08:58 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 5/5] 192.168.1.193 () {40 vars in 643 bytes} [Fri Mar  5 19:08:59 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 6/6] 192.168.1.193 () {40 vars in 641 bytes} [Fri Mar  5 19:08:59 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 7/7] 192.168.1.193 () {40 vars in 623 bytes} [Fri Mar  5 19:12:50 2021] GET /config.json => generated 154 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 8/8] 192.168.1.193 () {44 vars in 751 bytes} [Fri Mar  5 19:12:50 2021] GET /clusters.config.json => generated 0 bytes in 1 msecs (HTTP/1.0 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 9/9] 192.168.1.193 () {40 vars in 643 bytes} [Fri Mar  5 19:12:51 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 10/10] 192.168.1.193 () {40 vars in 629 bytes} [Fri Mar  5 19:12:51 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 11/11] 192.168.1.193 () {40 vars in 641 bytes} [Fri Mar  5 19:12:51 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 12/12] 192.168.1.193 () {40 vars in 643 bytes} [Fri Mar  5 19:12:51 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 13/13] 192.168.1.193 () {40 vars in 623 bytes} [Fri Mar  5 19:13:13 2021] GET /config.json => generated 154 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 14/14] 192.168.1.193 () {40 vars in 641 bytes} [Fri Mar  5 19:13:13 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 15/15] 192.168.1.193 () {40 vars in 643 bytes} [Fri Mar  5 19:13:14 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 16/16] 192.168.1.193 () {40 vars in 641 bytes} [Fri Mar  5 19:13:14 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 17/17] 192.168.1.193 () {40 vars in 629 bytes} [Fri Mar  5 19:13:14 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 18/18] 192.168.1.193 () {40 vars in 643 bytes} [Fri Mar  5 19:13:14 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 19/19] 192.168.1.193 () {40 vars in 623 bytes} [Fri Mar  5 19:14:50 2021] GET /config.json => generated 154 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 20/20] 192.168.1.193 () {44 vars in 751 bytes} [Fri Mar  5 19:14:51 2021] GET /clusters.config.json => generated 0 bytes in 2 msecs (HTTP/1.0 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 21/21] 192.168.1.193 () {40 vars in 643 bytes} [Fri Mar  5 19:14:52 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 22/22] 192.168.1.193 () {44 vars in 740 bytes} [Fri Mar  5 19:14:52 2021] GET /2d.config.json => generated 0 bytes in 1 msecs (HTTP/1.0 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 23/23] 192.168.1.193 () {40 vars in 641 bytes} [Fri Mar  5 19:14:53 2021] GET /topology.config.json => generated 153 bytes in 2 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487696|app: 0|req: 24/24] 192.168.1.193 () {44 vars in 754 bytes} [Fri Mar  5 19:14:53 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.0 304) 4 headers in 182 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Mar  5 19:16:21 2021] ***
+compiled with version: 10.2.0 on 27 February 2021 12:32:47
+os: Linux-5.8.7-arch1-1 #1 SMP PREEMPT Sat, 05 Sep 2020 12:31:32 +0000
+nodename: fcgi-python0.ad.robco.pl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /srv/http/cluster.robco.local/priv/webconf-server
+detected binary path: /usr/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7872
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :2001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.2 (default, Feb 20 2021, 18:40:11)  [GCC 10.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c6a8f25cf0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c6a8f25cf0 pid: 487808 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 487808, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Mar  5 19:17:16 2021] ***
+compiled with version: 10.2.0 on 27 February 2021 12:32:47
+os: Linux-5.8.7-arch1-1 #1 SMP PREEMPT Sat, 05 Sep 2020 12:31:32 +0000
+nodename: fcgi-python0.ad.robco.pl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /srv/http/cluster.robco.local/priv/webconf-server
+detected binary path: /usr/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7872
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :2001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.2 (default, Feb 20 2021, 18:40:11)  [GCC 10.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x56070fc69cf0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56070fc69cf0 pid: 487817 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 487817, cores: 1)
+[pid: 487817|app: 0|req: 1/1] 192.168.1.193 () {40 vars in 623 bytes} [Fri Mar  5 19:17:28 2021] GET /config.json => generated 154 bytes in 3 msecs via sendfile() (HTTP/1.0 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 2/2] 192.168.1.193 () {40 vars in 641 bytes} [Fri Mar  5 19:17:29 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 3/3] 192.168.1.193 () {40 vars in 643 bytes} [Fri Mar  5 19:17:29 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 4/4] 192.168.1.193 () {40 vars in 629 bytes} [Fri Mar  5 19:17:30 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 5/5] 192.168.1.193 () {40 vars in 641 bytes} [Fri Mar  5 19:17:30 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 6/6] 192.168.1.193 () {44 vars in 754 bytes} [Fri Mar  5 19:17:30 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.0 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 7/7] 192.168.1.193 () {40 vars in 646 bytes} [Fri Mar  5 21:37:30 2021] GET /config.json => generated 154 bytes in 9 msecs via sendfile() (HTTP/1.0 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 8/8] 192.168.1.193 () {40 vars in 664 bytes} [Fri Mar  5 21:37:30 2021] GET /clusters.config.json => generated 3 bytes in 5 msecs via sendfile() (HTTP/1.0 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 9/9] 192.168.1.193 () {40 vars in 652 bytes} [Fri Mar  5 21:37:31 2021] GET /2d.config.json => generated 688 bytes in 6 msecs via sendfile() (HTTP/1.0 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 10/10] 192.168.1.193 () {40 vars in 666 bytes} [Fri Mar  5 21:37:31 2021] GET /2d.colors.config.json => generated 749 bytes in 6 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 11/11] 192.168.1.193 () {40 vars in 664 bytes} [Fri Mar  5 21:37:31 2021] GET /topology.config.json => generated 153 bytes in 5 msecs via sendfile() (HTTP/1.0 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 12/12] 192.168.1.193 () {40 vars in 666 bytes} [Fri Mar  5 21:37:31 2021] GET /3d.colors.config.json => generated 897 bytes in 5 msecs via sendfile() (HTTP/1.0 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 13/13] 192.168.1.193 () {40 vars in 646 bytes} [Sun Mar  7 02:36:35 2021] GET /config.json => generated 154 bytes in 10 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 14/14] 192.168.1.193 () {40 vars in 664 bytes} [Sun Mar  7 02:36:35 2021] GET /clusters.config.json => generated 3 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 15/15] 192.168.1.193 () {40 vars in 666 bytes} [Sun Mar  7 02:36:35 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 16/16] 192.168.1.193 () {40 vars in 652 bytes} [Sun Mar  7 02:36:35 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 17/17] 192.168.1.193 () {40 vars in 664 bytes} [Sun Mar  7 02:36:35 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 18/18] 192.168.1.193 () {40 vars in 666 bytes} [Sun Mar  7 02:36:35 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 19/19] 192.168.1.193 () {44 vars in 1077 bytes} [Sun Mar  7 02:37:04 2021] GET /config.json => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 20/20] 192.168.1.193 () {40 vars in 971 bytes} [Sun Mar  7 02:37:04 2021] GET /3d.config.json => generated 748 bytes in 22 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 21/21] 192.168.1.193 () {44 vars in 1096 bytes} [Sun Mar  7 02:37:04 2021] GET /3d.colors.config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 22/22] 192.168.1.193 () {44 vars in 1091 bytes} [Sun Mar  7 02:37:04 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 23/23] 192.168.1.193 () {44 vars in 1077 bytes} [Sun Mar  7 03:38:36 2021] GET /config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 24/24] 192.168.1.193 () {44 vars in 1082 bytes} [Sun Mar  7 03:38:36 2021] GET /3d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 487817|app: 0|req: 25/25] 192.168.1.193 () {44 vars in 1091 bytes} [Sun Ma                                                                                                                                                                                                                                                                                                                                                                        *** Starting uWSGI 2.0.19.1 (64bit) on [Sun Mar 14 02:29:40 2021] ***
+compiled with version: 10.2.0 on 27 February 2021 12:32:47
+os: Linux-5.11.2-arch1-1 #1 SMP PREEMPT Fri, 26 Feb 2021 18:26:41 +0000
+nodename: fcgi-python0.ad.robco.pl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /srv/http/cluster.robco.local/priv/webconf-server
+detected binary path: /usr/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7864
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :2001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.2 (default, Feb 20 2021, 18:40:11)  [GCC 10.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55a263b44cf0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x55a263b44cf0 pid: 84604 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 84604, cores: 1)
+[pid: 84604|app: 0|req: 1/1] 192.168.1.193 () {40 vars in 665 bytes} [Sun Mar 14 02:34:07 2021] GET /config.json => generated 154 bytes in 38 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 2/2] 192.168.1.193 () {40 vars in 683 bytes} [Sun Mar 14 02:34:07 2021] GET /clusters.config.json => generated 3 bytes in 30 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 3/3] 192.168.1.193 () {40 vars in 685 bytes} [Sun Mar 14 02:34:07 2021] GET /2d.colors.config.json => generated 749 bytes in 36 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 4/4] 192.168.1.193 () {40 vars in 671 bytes} [Sun Mar 14 02:34:07 2021] GET /2d.config.json => generated 688 bytes in 19 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 5/5] 192.168.1.193 () {40 vars in 683 bytes} [Sun Mar 14 02:34:07 2021] GET /topology.config.json => generated 153 bytes in 33 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 6/6] 192.168.1.193 () {40 vars in 685 bytes} [Sun Mar 14 02:34:07 2021] GET /3d.colors.config.json => generated 897 bytes in 36 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 7/7] 192.168.1.193 () {40 vars in 646 bytes} [Sun Mar 14 02:34:40 2021] GET /config.json => generated 154 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 8/8] 192.168.1.193 () {40 vars in 664 bytes} [Sun Mar 14 02:34:40 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 9/9] 192.168.1.193 () {40 vars in 652 bytes} [Sun Mar 14 02:34:40 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 10/10] 192.168.1.193 () {40 vars in 666 bytes} [Sun Mar 14 02:34:40 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 11/11] 192.168.1.193 () {40 vars in 664 bytes} [Sun Mar 14 02:34:40 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 12/12] 192.168.1.193 () {40 vars in 666 bytes} [Sun Mar 14 02:34:40 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 13/13] 192.168.1.193 () {44 vars in 699 bytes} [Sun Mar 14 02:34:50 2021] GET /config.json => generated 154 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 14/14] 192.168.1.193 () {44 vars in 717 bytes} [Sun Mar 14 02:34:50 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 15/15] 192.168.1.193 () {44 vars in 705 bytes} [Sun Mar 14 02:34:50 2021] GET /2d.config.json => generated 688 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 16/16] 192.168.1.193 () {44 vars in 719 bytes} [Sun Mar 14 02:34:50 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 17/17] 192.168.1.193 () {44 vars in 717 bytes} [Sun Mar 14 02:34:50 2021] GET /topology.config.json => generated 153 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 18/18] 192.168.1.193 () {44 vars in 719 bytes} [Sun Mar 14 02:34:50 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 19/19] 192.168.1.193 () {44 vars in 699 bytes} [Sun Mar 14 02:37:35 2021] GET /config.json => generated 154 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 20/20] 192.168.1.193 () {44 vars in 717 bytes} [Sun Mar 14 02:37:35 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 21/21] 192.168.1.193 () {44 vars in 719 bytes} [Sun Mar 14 02:37:35 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 22/22] 192.168.1.193 () {44 vars in 705 bytes} [Sun Mar 14 02:37:35 2021] GET /2d.config.json => generated 688 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 23/23] 192.168.1.193 () {44 vars in 717 bytes} [Sun Mar 14 02:37:35 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 24/24] 192.168.1.193 () {44 vars in 719 bytes} [Sun Mar 14 02:37:35 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 25/25] 192.168.1.193 () {44 vars in 699 bytes} [Sun Mar 14 02:38:54 2021] GET /config.json => generated 154 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 26/26] 192.168.1.193 () {44 vars in 717 bytes} [Sun Mar 14 02:38:54 2021] GET /clusters.config.json => generated 3 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 27/27] 192.168.1.193 () {44 vars in 719 bytes} [Sun Mar 14 02:38:54 2021] GET /2d.colors.config.json => generated 749 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 28/28] 192.168.1.193 () {44 vars in 705 bytes} [Sun Mar 14 02:38:54 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 29/29] 192.168.1.193 () {44 vars in 717 bytes} [Sun Mar 14 02:38:54 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84604|app: 0|req: 30/30] 192.168.1.193 () {44 vars in 719 bytes} [Sun Mar 14 02:38:54 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sun Mar 14 02:40:17 2021] ***
+compiled with version: 10.2.0 on 27 February 2021 12:32:47
+os: Linux-5.11.2-arch1-1 #1 SMP PREEMPT Fri, 26 Feb 2021 18:26:41 +0000
+nodename: fcgi-python0.ad.robco.pl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /srv/http/cluster.robco.local/priv/webconf-server
+detected binary path: /usr/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7864
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :2001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.2 (default, Feb 20 2021, 18:40:11)  [GCC 10.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55c9d8dfacf0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55c9d8dfacf0 pid: 84806 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 84806, cores: 1)
+[pid: 84806|app: 0|req: 1/1] 192.168.1.193 () {44 vars in 699 bytes} [Sun Mar 14 02:40:23 2021] GET /config.json => generated 154 bytes in 5 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 2/2] 192.168.1.193 () {44 vars in 717 bytes} [Sun Mar 14 02:40:23 2021] GET /clusters.config.json => generated 3 bytes in 11 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 3/3] 192.168.1.193 () {44 vars in 719 bytes} [Sun Mar 14 02:40:24 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 4/4] 192.168.1.193 () {44 vars in 705 bytes} [Sun Mar 14 02:40:24 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 5/5] 192.168.1.193 () {44 vars in 717 bytes} [Sun Mar 14 02:40:24 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 6/6] 192.168.1.193 () {44 vars in 719 bytes} [Sun Mar 14 02:40:24 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 7/7] 192.168.1.193 () {40 vars in 646 bytes} [Sun Mar 14 10:08:11 2021] GET /config.json => generated 154 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 8/8] 192.168.1.193 () {40 vars in 664 bytes} [Sun Mar 14 10:08:12 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 9/9] 192.168.1.193 () {40 vars in 652 bytes} [Sun Mar 14 10:08:13 2021] GET /2d.config.json => generated 688 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 10/10] 192.168.1.193 () {40 vars in 666 bytes} [Sun Mar 14 10:08:13 2021] GET /2d.colors.config.json => generated 749 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 11/11] 192.168.1.193 () {40 vars in 664 bytes} [Sun Mar 14 10:08:13 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 12/12] 192.168.1.193 () {40 vars in 666 bytes} [Sun Mar 14 10:08:14 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 13/13] 192.168.1.193 () {40 vars in 646 bytes} [Mon Mar 15 17:49:16 2021] GET /config.json => generated 154 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 14/14] 192.168.1.193 () {40 vars in 664 bytes} [Mon Mar 15 17:49:16 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 15/15] 192.168.1.193 () {44 vars in 772 bytes} [Mon Mar 15 17:49:16 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 16/16] 192.168.1.193 () {44 vars in 763 bytes} [Mon Mar 15 17:49:16 2021] GET /2d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 17/17] 192.168.1.193 () {44 vars in 770 bytes} [Mon Mar 15 17:49:16 2021] GET /topology.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 18/18] 192.168.1.193 () {44 vars in 777 bytes} [Mon Mar 15 17:49:16 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 19/19] 192.168.1.193 () {44 vars in 1077 bytes} [Mon Mar 15 18:11:05 2021] GET /config.json => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 20/20] 192.168.1.193 () {40 vars in 971 bytes} [Mon Mar 15 18:11:05 2021] GET /3d.config.json => generated 748 bytes in 89 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 21/21] 192.168.1.193 () {44 vars in 1096 bytes} [Mon Mar 15 18:11:05 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 22/22] 192.168.1.193 () {44 vars in 1091 bytes} [Mon Mar 15 18:11:05 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 23/23] 192.168.1.193 () {44 vars in 1077 bytes} [Mon Mar 15 18:12:27 2021] GET /config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 24/24] 192.168.1.193 () {44 vars in 1082 bytes} [Mon Mar 15 18:12:27 2021] GET /3d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 25/25] 192.168.1.193 () {44 vars in 1096 bytes} [Mon Mar 15 18:12:27 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 26/26] 192.168.1.193 () {44 vars in 1091 bytes} [Mon Mar 15 18:12:27 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 27/27] 192.168.1.193 () {44 vars in 1077 bytes} [Mon Mar 15 18:14:23 2021] GET /config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 28/28] 192.168.1.193 () {44 vars in 1091 bytes} [Mon Mar 15 18:14:23 2021] GET /2d.colors.config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 29/29] 192.168.1.193 () {44 vars in 1096 bytes} [Mon Mar 15 18:14:23 2021] GET /3d.colors.config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 30/30] 192.168.1.193 () {44 vars in 1082 bytes} [Mon Mar 15 18:14:23 2021] GET /3d.config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 31/31] 192.168.1.193 () {40 vars in 646 bytes} [Mon Mar 15 19:19:09 2021] GET /config.json => generated 154 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 32/32] 192.168.1.193 () {44 vars in 774 bytes} [Mon Mar 15 19:19:09 2021] GET /clusters.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 33/33] 192.168.1.193 () {44 vars in 763 bytes} [Mon Mar 15 19:19:10 2021] GET /2d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 34/34] 192.168.1.193 () {44 vars in 772 bytes} [Mon Mar 15 19:19:10 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 35/35] 192.168.1.193 () {40 vars in 664 bytes} [Mon Mar 15 19:19:10 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 36/36] 192.168.1.193 () {40 vars in 666 bytes} [Mon Mar 15 19:19:10 2021] GET /3d.colors.config.json => generated 897 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 37/37] 192.168.1.193 () {44 vars in 758 bytes} [Mon Mar 15 20:58:24 2021] GET /config.json => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 38/38] 192.168.1.193 () {44 vars in 774 bytes} [Mon Mar 15 20:58:24 2021] GET /clusters.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 39/39] 192.168.1.193 () {44 vars in 772 bytes} [Mon Mar 15 20:58:24 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 40/40] 192.168.1.193 () {44 vars in 763 bytes} [Mon Mar 15 20:58:24 2021] GET /2d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 41/41] 192.168.1.193 () {44 vars in 770 bytes} [Mon Mar 15 20:58:24 2021] GET /topology.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 42/42] 192.168.1.193 () {44 vars in 777 bytes} [Mon Mar 15 20:58:24 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 43/43] 192.168.1.193 () {40 vars in 965 bytes} [Mon Mar 15 21:00:25 2021] GET /config.json => generated 154 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 44/44] 192.168.1.193 () {40 vars in 971 bytes} [Mon Mar 15 21:00:25 2021] GET /3d.config.json => generated 748 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 45/45] 192.168.1.193 () {40 vars in 985 bytes} [Mon Mar 15 21:00:25 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 46/46] 192.168.1.193 () {44 vars in 1091 bytes} [Mon Mar 15 21:00:25 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 47/47] 192.168.1.193 () {44 vars in 1077 bytes} [Mon Mar 15 21:02:39 2021] GET /config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 48/48] 192.168.1.193 () {44 vars in 1082 bytes} [Mon Mar 15 21:02:39 2021] GET /3d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 49/49] 192.168.1.193 () {44 vars in 1091 bytes} [Mon Mar 15 21:02:40 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 50/50] 192.168.1.193 () {44 vars in 1096 bytes} [Mon Mar 15 21:02:40 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 51/51] 192.168.1.193 () {44 vars in 1077 bytes} [Mon Mar 15 21:14:49 2021] GET /config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 52/52] 192.168.1.193 () {44 vars in 1082 bytes} [Mon Mar 15 21:14:49 2021] GET /3d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 53/53] 192.168.1.193 () {44 vars in 1096 bytes} [Mon Mar 15 21:14:49 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 54/54] 192.168.1.193 () {44 vars in 1091 bytes} [Mon Mar 15 21:14:49 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 55/55] 192.168.1.193 () {44 vars in 758 bytes} [Mon Mar 15 21:20:33 2021] GET /config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 56/56] 192.168.1.193 () {44 vars in 774 bytes} [Mon Mar 15 21:20:33 2021] GET /clusters.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 57/57] 192.168.1.193 () {44 vars in 772 bytes} [Mon Mar 15 21:20:33 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 58/58] 192.168.1.193 () {44 vars in 763 bytes} [Mon Mar 15 21:20:34 2021] GET /2d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 59/59] 192.168.1.193 () {44 vars in 770 bytes} [Mon Mar 15 21:20:34 2021] GET /topology.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 60/60] 192.168.1.193 () {44 vars in 777 bytes} [Mon Mar 15 21:20:34 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 61/61] 192.168.1.193 () {44 vars in 699 bytes} [Mon Mar 15 21:20:56 2021] GET /config.json => generated 154 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 62/62] 192.168.1.193 () {44 vars in 717 bytes} [Mon Mar 15 21:20:56 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 63/63] 192.168.1.193 () {44 vars in 705 bytes} [Mon Mar 15 21:20:58 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 64/64] 192.168.1.193 () {44 vars in 719 bytes} [Mon Mar 15 21:20:58 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 65/65] 192.168.1.193 () {44 vars in 717 bytes} [Mon Mar 15 21:20:58 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 66/66] 192.168.1.193 () {44 vars in 719 bytes} [Mon Mar 15 21:20:58 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 67/67] 192.168.1.193 () {44 vars in 1018 bytes} [Mon Mar 15 21:22:50 2021] GET /config.json => generated 154 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 68/68] 192.168.1.193 () {44 vars in 1038 bytes} [Mon Mar 15 21:22:50 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 69/69] 192.168.1.193 () {44 vars in 1024 bytes} [Mon Mar 15 21:22:50 2021] GET /3d.config.json => generated 748 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 70/70] 192.168.1.193 () {44 vars in 1038 bytes} [Mon Mar 15 21:22:50 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 71/71] 192.168.1.193 () {44 vars in 699 bytes} [Mon Mar 15 21:22:58 2021] GET /config.json => generated 154 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 72/72] 192.168.1.193 () {44 vars in 717 bytes} [Mon Mar 15 21:22:58 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 73/73] 192.168.1.193 () {44 vars in 705 bytes} [Mon Mar 15 21:22:59 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 74/74] 192.168.1.193 () {44 vars in 719 bytes} [Mon Mar 15 21:22:59 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 75/75] 192.168.1.193 () {44 vars in 717 bytes} [Mon Mar 15 21:22:59 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 76/76] 192.168.1.193 () {44 vars in 719 bytes} [Mon Mar 15 21:22:59 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 77/77] 192.168.1.193 () {44 vars in 1018 bytes} [Mon Mar 15 21:23:02 2021] GET /config.json => generated 154 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 78/78] 192.168.1.193 () {44 vars in 1024 bytes} [Mon Mar 15 21:23:02 2021] GET /3d.config.json => generated 748 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 79/79] 192.168.1.193 () {44 vars in 1038 bytes} [Mon Mar 15 21:23:02 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 80/80] 192.168.1.193 () {44 vars in 1038 bytes} [Mon Mar 15 21:23:02 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 81/81] 192.168.1.193 () {44 vars in 1077 bytes} [Mon Mar 15 21:24:43 2021] GET /config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 82/82] 192.168.1.193 () {44 vars in 1082 bytes} [Mon Mar 15 21:24:43 2021] GET /3d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 83/83] 192.168.1.193 () {44 vars in 1091 bytes} [Mon Mar 15 21:24:43 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 84/84] 192.168.1.193 () {44 vars in 1096 bytes} [Mon Mar 15 21:24:43 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 85/85] 192.168.1.193 () {44 vars in 1077 bytes} [Mon Mar 15 21:29:15 2021] GET /config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 86/86] 192.168.1.193 () {44 vars in 1082 bytes} [Mon Mar 15 21:29:15 2021] GET /3d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 87/87] 192.168.1.193 () {44 vars in 1096 bytes} [Mon Mar 15 21:29:15 2021] GET /3d.colors.config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 88/88] 192.168.1.193 () {44 vars in 1091 bytes} [Mon Mar 15 21:29:15 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 89/89] 192.168.1.193 () {44 vars in 699 bytes} [Mon Mar 15 22:06:39 2021] GET /config.json => generated 154 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 90/90] 192.168.1.193 () {44 vars in 717 bytes} [Mon Mar 15 22:06:39 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 91/91] 192.168.1.193 () {44 vars in 719 bytes} [Mon Mar 15 22:06:40 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 92/92] 192.168.1.193 () {44 vars in 705 bytes} [Mon Mar 15 22:06:40 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 93/93] 192.168.1.193 () {44 vars in 717 bytes} [Mon Mar 15 22:06:40 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 94/94] 192.168.1.193 () {44 vars in 719 bytes} [Mon Mar 15 22:06:40 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 95/95] 192.168.1.193 () {44 vars in 699 bytes} [Mon Mar 15 22:07:40 2021] GET /config.json => generated 154 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 96/96] 192.168.1.193 () {44 vars in 717 bytes} [Mon Mar 15 22:07:40 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 97/97] 192.168.1.193 () {44 vars in 719 bytes} [Mon Mar 15 22:07:41 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 98/98] 192.168.1.193 () {44 vars in 705 bytes} [Mon Mar 15 22:07:41 2021] GET /2d.config.json => generated 688 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 99/99] 192.168.1.193 () {44 vars in 717 bytes} [Mon Mar 15 22:07:41 2021] GET /topology.config.json => generated 153 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 100/100] 192.168.1.193 () {44 vars in 719 bytes} [Mon Mar 15 22:07:41 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 101/101] 192.168.1.193 () {44 vars in 699 bytes} [Mon Mar 15 22:09:55 2021] GET /config.json => generated 154 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 102/102] 192.168.1.193 () {44 vars in 717 bytes} [Mon Mar 15 22:09:56 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 103/103] 192.168.1.193 () {44 vars in 719 bytes} [Mon Mar 15 22:09:56 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 104/104] 192.168.1.193 () {44 vars in 705 bytes} [Mon Mar 15 22:09:56 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 105/105] 192.168.1.193 () {44 vars in 717 bytes} [Mon Mar 15 22:09:56 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 106/106] 192.168.1.193 () {44 vars in 719 bytes} [Mon Mar 15 22:09:56 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 107/107] 192.168.1.193 () {44 vars in 1018 bytes} [Mon Mar 15 22:11:49 2021] GET /config.json => generated 154 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 108/108] 192.168.1.193 () {44 vars in 1024 bytes} [Mon Mar 15 22:11:49 2021] GET /3d.config.json => generated 748 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 109/109] 192.168.1.193 () {44 vars in 1038 bytes} [Mon Mar 15 22:11:49 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 110/110] 192.168.1.193 () {44 vars in 1038 bytes} [Mon Mar 15 22:11:49 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 111/111] 192.168.1.193 () {44 vars in 1018 bytes} [Mon Mar 15 22:12:02 2021] GET /config.json => generated 154 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 112/112] 192.168.1.193 () {44 vars in 1024 bytes} [Mon Mar 15 22:12:02 2021] GET /3d.config.json => generated 748 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 113/113] 192.168.1.193 () {44 vars in 1038 bytes} [Mon Mar 15 22:12:02 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 114/114] 192.168.1.193 () {44 vars in 1038 bytes} [Mon Mar 15 22:12:03 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 84806|app: 0|req: 115/115] 192.168.1.193 () {44 vars in 1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         *** Starting uWSGI 2.0.19.1 (64bit) on [Fri Mar 19 05:52:20 2021] ***
+compiled with version: 10.2.0 on 27 February 2021 12:32:47
+os: Linux-5.11.2-arch1-1 #1 SMP PREEMPT Fri, 26 Feb 2021 18:26:41 +0000
+nodename: fcgi-python0.ad.robco.pl
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /srv/http/cluster.robco.local/priv/webconf-server
+detected binary path: /usr/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7864
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :2001 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.9.2 (default, Feb 20 2021, 18:40:11)  [GCC 10.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55e2471c8cf0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72920 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 3 seconds on interpreter 0x55e2471c8cf0 pid: 9150 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 9150, cores: 1)
+[pid: 9150|app: 0|req: 1/1] 192.168.1.193 () {40 vars in 646 bytes} [Fri Mar 19 05:54:23 2021] GET /config.json => generated 154 bytes in 47 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 2/2] 192.168.1.193 () {40 vars in 666 bytes} [Fri Mar 19 05:54:23 2021] GET /2d.colors.config.json => generated 749 bytes in 17 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 3/3] 192.168.1.193 () {40 vars in 652 bytes} [Fri Mar 19 05:54:23 2021] GET /2d.config.json => generated 688 bytes in 29 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 4/4] 192.168.1.193 () {40 vars in 664 bytes} [Fri Mar 19 05:54:23 2021] GET /topology.config.json => generated 153 bytes in 22 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 5/5] 192.168.1.193 () {40 vars in 664 bytes} [Fri Mar 19 05:54:23 2021] GET /clusters.config.json => generated 3 bytes in 20 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 6/6] 192.168.1.193 () {44 vars in 777 bytes} [Fri Mar 19 05:54:23 2021] GET /3d.colors.config.json => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 7/7] 192.168.1.193 () {44 vars in 758 bytes} [Fri Mar 19 06:16:41 2021] GET /config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 8/8] 192.168.1.193 () {44 vars in 774 bytes} [Fri Mar 19 06:16:41 2021] GET /clusters.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 9/9] 192.168.1.193 () {44 vars in 763 bytes} [Fri Mar 19 06:16:41 2021] GET /2d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 10/10] 192.168.1.193 () {44 vars in 770 bytes} [Fri Mar 19 06:16:41 2021] GET /topology.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 11/11] 192.168.1.193 () {44 vars in 772 bytes} [Fri Mar 19 06:16:41 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 12/12] 192.168.1.193 () {44 vars in 777 bytes} [Fri Mar 19 06:16:41 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 13/13] 192.168.1.193 () {40 vars in 965 bytes} [Fri Mar 19 06:17:13 2021] GET /config.json => generated 154 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 14/14] 192.168.1.193 () {40 vars in 971 bytes} [Fri Mar 19 06:17:13 2021] GET /3d.config.json => generated 748 bytes in 35 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 15/15] 192.168.1.193 () {40 vars in 985 bytes} [Fri Mar 19 06:17:13 2021] GET /3d.colors.config.json => generated 897 bytes in 7 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 16/16] 192.168.1.193 () {44 vars in 1091 bytes} [Fri Mar 19 06:17:13 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 17/17] 192.168.1.193 () {40 vars in 715 bytes} [Fri Mar 19 23:54:25 2021] GET /config.json => generated 154 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 18/18] 192.168.1.193 () {40 vars in 733 bytes} [Fri Mar 19 23:54:25 2021] GET /clusters.config.json => generated 3 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 19/19] 192.168.1.193 () {40 vars in 735 bytes} [Fri Mar 19 23:54:25 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 20/20] 192.168.1.193 () {40 vars in 721 bytes} [Fri Mar 19 23:54:25 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 21/21] 192.168.1.193 () {40 vars in 733 bytes} [Fri Mar 19 23:54:25 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 22/22] 192.168.1.193 () {40 vars in 735 bytes} [Fri Mar 19 23:54:25 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 23/23] 192.168.1.193 () {44 vars in 1146 bytes} [Fri Mar 19 23:54:42 2021] GET /config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 24/24] 192.168.1.193 () {40 vars in 1040 bytes} [Fri Mar 19 23:54:42 2021] GET /3d.config.json => generated 748 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 25/25] 192.168.1.193 () {44 vars in 1165 bytes} [Fri Mar 19 23:54:42 2021] GET /3d.colors.config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 26/26] 192.168.1.193 () {44 vars in 1160 bytes} [Fri Mar 19 23:54:42 2021] GET /2d.colors.config.json => generated 0 bytes in 5 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 27/27] 192.168.1.193 () {44 vars in 735 bytes} [Sat Mar 20 18:38:37 2021] GET /config.json => generated 0 bytes in 3 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 28/28] 192.168.1.193 () {44 vars in 751 bytes} [Sat Mar 20 18:38:39 2021] GET /clusters.config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 29/29] 192.168.1.193 () {44 vars in 740 bytes} [Sat Mar 20 18:38:43 2021] GET /2d.config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 30/30] 192.168.1.193 () {44 vars in 749 bytes} [Sat Mar 20 18:38:43 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 31/31] 192.168.1.193 () {44 vars in 747 bytes} [Sat Mar 20 18:38:44 2021] GET /topology.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 32/32] 192.168.1.193 () {44 vars in 754 bytes} [Sat Mar 20 18:38:44 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 33/33] 192.168.1.193 () {44 vars in 735 bytes} [Mon Mar 22 05:51:50 2021] GET /config.json => generated 0 bytes in 4 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 34/34] 192.168.1.193 () {40 vars in 641 bytes} [Mon Mar 22 05:51:50 2021] GET /clusters.config.json => generated 3 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 35/35] 192.168.1.193 () {40 vars in 643 bytes} [Mon Mar 22 05:51:51 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 36/36] 192.168.1.193 () {40 vars in 629 bytes} [Mon Mar 22 05:51:51 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 37/37] 192.168.1.193 () {40 vars in 643 bytes} [Mon Mar 22 05:51:51 2021] GET /3d.colors.config.json => generated 897 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 38/38] 192.168.1.193 () {40 vars in 641 bytes} [Mon Mar 22 05:51:52 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 39/39] 192.168.1.193 () {40 vars in 646 bytes} [Sat Mar 27 12:42:56 2021] GET /config.json => generated 154 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 40/40] 192.168.1.193 () {40 vars in 664 bytes} [Sat Mar 27 12:42:57 2021] GET /clusters.config.json => generated 3 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 41/41] 192.168.1.193 () {40 vars in 666 bytes} [Sat Mar 27 12:42:57 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 42/42] 192.168.1.193 () {40 vars in 652 bytes} [Sat Mar 27 12:42:57 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 43/43] 192.168.1.193 () {40 vars in 664 bytes} [Sat Mar 27 12:42:57 2021] GET /topology.config.json => generated 153 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 44/44] 192.168.1.193 () {40 vars in 666 bytes} [Sat Mar 27 12:42:57 2021] GET /3d.colors.config.json => generated 897 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 45/45] 192.168.1.193 () {44 vars in 1077 bytes} [Sat Mar 27 12:43:21 2021] GET /config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 46/46] 192.168.1.193 () {40 vars in 971 bytes} [Sat Mar 27 12:43:21 2021] GET /3d.config.json => generated 748 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 47/47] 192.168.1.193 () {44 vars in 1096 bytes} [Sat Mar 27 12:43:21 2021] GET /3d.colors.config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 48/48] 192.168.1.193 () {44 vars in 1091 bytes} [Sat Mar 27 12:43:21 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 49/49] 192.168.1.193 () {44 vars in 758 bytes} [Sat Mar 27 13:21:12 2021] GET /config.json => generated 0 bytes in 2 msecs (HTTP/1.1 304) 4 headers in 183 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 50/50] 192.168.1.193 () {44 vars in 774 bytes} [Sat Mar 27 13:21:12 2021] GET /clusters.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 51/51] 192.168.1.193 () {44 vars in 772 bytes} [Sat Mar 27 13:21:12 2021] GET /2d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 52/52] 192.168.1.193 () {44 vars in 763 bytes} [Sat Mar 27 13:21:12 2021] GET /2d.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 53/53] 192.168.1.193 () {44 vars in 770 bytes} [Sat Mar 27 13:21:12 2021] GET /topology.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 54/54] 192.168.1.193 () {44 vars in 777 bytes} [Sat Mar 27 13:21:12 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 55/55] 192.168.1.193 () {40 vars in 646 bytes} [Sat Mar 27 14:25:12 2021] GET /config.json => generated 154 bytes in 4 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 56/56] 192.168.1.193 () {44 vars in 774 bytes} [Sat Mar 27 14:25:12 2021] GET /clusters.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 181 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 57/57] 192.168.1.193 () {40 vars in 652 bytes} [Sat Mar 27 14:25:12 2021] GET /2d.config.json => generated 688 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 58/58] 192.168.1.193 () {40 vars in 666 bytes} [Sat Mar 27 14:25:12 2021] GET /2d.colors.config.json => generated 749 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 59/59] 192.168.1.193 () {44 vars in 770 bytes} [Sat Mar 27 14:25:12 2021] GET /topology.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 177 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 60/60] 192.168.1.193 () {44 vars in 777 bytes} [Sat Mar 27 14:25:12 2021] GET /3d.colors.config.json => generated 0 bytes in 1 msecs (HTTP/1.1 304) 4 headers in 182 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 61/61] 192.168.1.193 () {40 vars in 646 bytes} [Mon Mar 29 10:49:31 2021] GET /config.json => generated 154 bytes in 33 msecs via sendfile() (HTTP/1.1 200) 7 headers in 272 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 62/62] 192.168.1.193 () {40 vars in 664 bytes} [Mon Mar 29 10:49:32 2021] GET /clusters.config.json => generated 3 bytes in 22 msecs via sendfile() (HTTP/1.1 200) 7 headers in 268 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 63/63] 192.168.1.193 () {40 vars in 652 bytes} [Mon Mar 29 10:49:32 2021] GET /2d.config.json => generated 688 bytes in 18 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 64/64] 192.168.1.193 () {40 vars in 666 bytes} [Mon Mar 29 10:49:32 2021] GET /2d.colors.config.json => generated 749 bytes in 27 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 65/65] 192.168.1.193 () {40 vars in 664 bytes} [Mon Mar 29 10:49:32 2021] GET /topology.config.json => generated 153 bytes in 30 msecs via sendfile() (HTTP/1.1 200) 7 headers in 266 bytes (0 switches on core 0)
+[pid: 9150|app: 0|req: 66/66] 192.168.1.193 () {40 vars in 666 bytes} [Mon Mar 29 10:49:32 2021] GET /3d.colors.config.json => generated 897 bytes in 37 msecs via sendfile() (HTTP/1.1 200) 7 headers in 271 bytes (0 switches on core 0)
